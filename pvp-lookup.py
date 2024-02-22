@@ -74,7 +74,7 @@ class InfoFrame(wx.Frame):
         super().__init__(None, title="PvP Lookup Log Uploader", size=(400, 200))
         panel = wx.Panel(self)
         vbox = wx.BoxSizer(wx.VERTICAL)
-        label = wx.StaticText(panel, label="This application monitors the World of Warcraft logs directory for new log files and uploads them to the server when detected.")
+        label = wx.StaticText(panel, label="This application monitors the World of Warcraft logs directory for new log files and uploads them to the server when detected. gitHub repo can be seen here https://github.com/Ulminia/PvP-Lookup-App")
         vbox.Add(label, 0, wx.ALL | wx.EXPAND, 10)
         close_button = wx.Button(panel, label="Close")
         close_button.Bind(wx.EVT_BUTTON, self.on_close)
