@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --icon=icon2.ico --add-data "icon2.ico;." arenalogs.gg.py
